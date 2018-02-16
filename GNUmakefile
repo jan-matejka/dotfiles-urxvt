@@ -8,5 +8,5 @@ build:
 .PHONY: install
 install:
 
-	mkdir -p $(ddir)
+	mkdir -p $(ddir)/perl
 	install -m644 perl/unichr $(ddir)/perl/unichr
