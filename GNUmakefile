@@ -2,8 +2,10 @@
 
 ddir=$(HOME)/.config/urxvt
 
+.PHONY: build
 build:
 
+.PHONY: install
 install:
 
 	mkdir -p $(ddir)
